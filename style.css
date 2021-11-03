@@ -4,20 +4,90 @@ body {
   margin: 0;
 }
 
-.header,
-.hero {
+.header {
   background-color: #1F2937;
-  color: #F9FAF8;
   padding: 10px 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.left-container {
+.hero {
+  background-color: #1F2937;
+  padding: 10px 200px 50px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.hero-cta h1 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #F9FAF8;
+}
+
+.hero-cta p {
+  font-size: 18px;
+  color: 	hsl(220, 13%, 75%);
+}
+
+#heropic {
+  height: 300px;
+  width: 450px;
+}
+
+
+.info {
+  background-color: white;
+  padding: 30px 200px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
 }
+
+.info .title {
+  font-size: 36px;
+  font-weight: 500;
+  color: #1F2937
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+}
+
+.content .exhibit {
+  max-width: 250px;
+}
+
+.exhibit img{
+  height: 200px;
+  width: 250px;
+  border: 4px solid #3882F6;
+  border-radius: 8px;
+}
+
+.exhibit p {
+  font-size: 16px;
+  color: 	hsl(220, 13%, 40%);
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 30px 200px;
+}
+
+.cta {
+  background-color: white;
+}
+
+.footer {
+  background-color: #1F2937;
+}
+
 
 button {
   background-color: #3882F6;
